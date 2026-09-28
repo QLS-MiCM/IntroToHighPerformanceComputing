@@ -59,7 +59,7 @@ if __name__ == "__main__":
     ]
 
     # print the input file name to the console for debugging purposes
-    print(f"Working on {input_file.name}...")
+    print(f"Working on {input_file.name}...", flush=True)
 
     # Eat ~4GB of memory to simulate a memory-intensive task
     _ = bytearray(4 * 1024**3)
